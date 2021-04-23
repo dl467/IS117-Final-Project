@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- DEVELOPER: Donggeon Lee, IS117-002, Spring 2021 -->
+<head>
+    <meta charset="UTF-8">
+    <title>ShoppyClothes</title>
+    <link rel="shortcut icon" href="../image/logo.png">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link href="../css/nav1.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="../index.html"><img src="../image/logo.png" alt="Logo" height="150"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="clothing.html">CLOTHING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="footwear.html">FOOTWEAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="accessories.html">ACCESSORIES</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown">
+                            CUSTOMER SERVICE
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="contact.html">CONTACT FORM</a>
+                            <a class="dropdown-item" href="aboutus.html">ABOUT US</a>
+                        </div>
+                    </li>
+                    <li class="shopping-cart">
+                        <h2>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                            </svg>
+                        </h2>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Carousel -->
+    <div class="carousel-title">
+        <h2>CONTACT FORM</h2>
+    </div>
+
+    <p class="leftover">.</p>
+
+    <p class="aboutus">
+        Hello and welcome to Shoppy Clothes! Thank you for visiting our site and please enjoy! We are an online clothing resale company that would love to add some flavor to your closet.
+        <br><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis erat sem, ut convallis ligula tempor non. Donec faucibus luctus tellus, at porta eros facilisis a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque ultricies suscipit porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu suscipit eros, in pharetra nisi. Nullam consectetur luctus diam, eget facilisis risus maximus et. Vivamus imperdiet massa et risus iaculis mollis. Vestibulum sit amet fringilla enim, ac blandit quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <br><br>
+        Mauris porta felis a blandit vehicula. Mauris tempor tincidunt lectus, quis ullamcorper est commodo nec. Proin vulputate interdum arcu quis elementum. Donec in ex gravida ligula pharetra fermentum sed sed eros. Cras mattis hendrerit enim, quis semper tortor. Integer sem dui, ultricies vitae placerat et, luctus sed turpis. Pellentesque at quam maximus, consequat eros ac, suscipit nibh. Pellentesque blandit, massa vitae pharetra ultrices, nibh mi vehicula lorem, sed pharetra erat ipsum id tortor. Praesent varius neque non massa feugiat feugiat. Integer non nisl dictum, aliquam mi nec, tincidunt sapien. Maecenas ultricies nisi at sapien rutrum euismod. Mauris laoreet dolor sit amet mauris ultrices, ut malesuada turpis sagittis. Vestibulum eget aliquet tellus. Morbi pretium id sapien et lobortis.
+    </p>
+
+    <p class="leftover">.</p>
+
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Donggeon Lee, 2021 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>

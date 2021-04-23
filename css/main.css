@@ -1,0 +1,63 @@
+/* DEVELOPER Donggeon Lee, IS117-002, Spring 2021 */
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+.carousel-title{
+    font-family: "courier new", monospace;
+    background-color: #FAEBD7;
+    width: 100%;
+    text-align: center;
+    color: DimGrey;
+    height: 30px;
+    margin: 0;
+}
+.carousel-title h2{
+    font-size: 25px;
+}
+.card{
+    padding: 15px;
+    margin: 10px 5px 10px 21%;
+}
+.card-title{
+    font-family: "courier new", monospace;
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+}
+.card-text{
+    font-family: Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.color-type{
+    margin-top: -15px;
+    font-size: 14px;
+    color: gray;
+    font-family: Helvetica, sans-serif;
+}
+.price{
+    font-family: Georgia, serif;
+    margin-top: -15px;
+    font-size: 14px;
+}
+.leftover{
+    margin-bottom: 20px;
+    color: white;
+}
+.navbar-nav{
+    font-size: 20px;
+    padding: 10px;
+    font-family: Garamond, serif;
+}
+.shopping-cart{
+    color: white;
+    margin-left: 550px;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- DEVELOPER: Donggeon Lee, IS117-002, Spring 2021 -->
+<head>
+    <meta charset="UTF-8">
+    <title>ShoppyClothes</title>
+    <link rel="shortcut icon" href="../image/logo.png">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link href="../css/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="../index.html"><img src="../image/logo.png" alt="Logo" height="150"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="clothing.html">CLOTHING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="footwear.html">FOOTWEAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="accessories.html">ACCESSORIES</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown">
+                            CUSTOMER SERVICE
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="contact.html">CONTACT FORM</a>
+                            <a class="dropdown-item" href="aboutus.html">ABOUT US</a>
+                        </div>
+                    </li>
+                    <li class="shopping-cart">
+                        <h2>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                            </svg>
+                        </h2>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Carousel -->
+    <div class="carousel-title">
+        <h2>FOOTWEAR</h2>
+    </div>
+
+    <div class="card-title">
+        <h3>BEST SELLERS</h3>
+    </div>
+    <!-- Cards -->
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card" style="width: 16rem; height:23rem;">
+                <img class="card-img-top" src="../image/shoes2.webp" alt="NOVESTA STAR MASTER">
+                <div class="card-body">
+                    <p class="card-text">NOVESTA STAR MASTER</p>
+                    <p class="color-type">WHITE</p>
+                    <p class="price">$70</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card" style="width: 16rem; height:23rem;">
+                <img class="card-img-top" src="../image/shoes3.webp" alt="NOVESTA STAR MASTER">
+                <div class="card-body">
+                    <p class="card-text">NOVESTA STAR MASTER</p>
+                    <p class="color-type">BEIGE</p>
+                    <p class="price">$70</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card" style="width: 16rem; height:23rem;">
+                <img class="card-img-top" src="../image/shoes4.webp" alt="SAINT LAURENT STAR LOW">
+                <div class="card-body">
+                    <p class="card-text">SAINT LAURENT STAR LOW</p>
+                    <p class="color-type">WHITE & BLACK</p>
+                    <p class="price">$529</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card" style="width: 16rem; height:23rem;">
+                <img class="card-img-top" src="../image/shoes5.webp" alt="NEW BALANCE VISION RACER">
+                <div class="card-body">
+                    <p class="card-text">NEW BALANCE VISION RACER</p>
+                    <p class="color-type">NATURAL</p>
+                    <p class="price">$155</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card" style="width: 16rem; height:23rem;">
+                <img class="card-img-top" src="../image/shoes6.webp" alt="NEW BALANCE ML574SYP">
+                <div class="card-body">
+                    <p class="card-text">NEW BALANCE ML574SYP</p>
+                    <p class="color-type">NAVY</p>
+                    <p class="price">$105</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card" style="width: 16rem; height:23rem;">
+                <img class="card-img-top" src="../image/shoes7.webp" alt="KARHU TRAMPAS">
+                <div class="card-body">
+                    <p class="card-text">KARHU TRAMPAS</p>
+                    <p class="color-type">NAVY & WHITE</p>
+                    <p class="price">$129</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="leftover">.</p>
+
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Donggeon Lee, 2021 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>
